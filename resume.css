@@ -100,3 +100,18 @@ i{
 .st{
     margin-right: 20px;
 }
+
+
+#fir{
+    padding: 20px;
+    width: 50%;
+    position: absolute;
+    right: 50%;
+}
+
+#sec{
+    padding: 20px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
