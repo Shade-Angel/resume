@@ -12,6 +12,11 @@ body{
     font-size: 11pt;
 }
 
+#head{
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+
 #personalInfo{
     max-width: 210mm;
     min-height: 297mm;
@@ -20,6 +25,7 @@ body{
     padding: 15mm;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
+    border: 1px solid #000;
 }
 
 .header{
@@ -32,6 +38,9 @@ body{
 }
 
 #logoAv{
+    position: absolute;
+    top: 10px;
+    font-size: 28px;
     color: blue;
 }
 
@@ -45,8 +54,8 @@ body{
     order: 1;
 }
 
-#photo{
-    width: 120px;
+.photo{
+    width: 150px;
     height: 150px;
     border: 1px solid #000;
     display: flex;
@@ -58,6 +67,12 @@ body{
 .Info{
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+
+.Info2{
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 
 .myInfo{
@@ -79,9 +94,15 @@ body{
 }
 
 
+.sp{
+    font-size: 15px;
+    font-weight: 200;
+    padding-right: 5px;
+}
+
 i{
     font-family: Arial;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 10;
 }
 
@@ -93,7 +114,7 @@ i{
 
 #Infowork{
     font-family: initial;
-    color: #816d6d;    
+    color: #816d6d;   
 }
 
 
@@ -114,4 +135,71 @@ i{
     width: 50%;
     position: absolute;
     left: 50%;
+}
+
+
+#area{
+    background-color: #f0ecec;
+}
+
+.Text{
+    padding: 0 0 20px 0;
+}
+
+#skill{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+
+.skills{
+    border: 1px solid #000;
+    padding:  3px 8px;
+    font-size: 10pt;
+    border-radius: 4px;
+    background-color: #d1b6f1;
+}
+
+
+#iInfo{
+    background-color: #f0ecec;
+}
+
+.st2{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.st3{
+    font-size: 16px;
+}
+
+
+.myInfo1{
+    font-size: 10pt;  
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    letter-spacing: 1px;
+    list-style: none;
+}
+
+
+#hr{
+    border-top: 1px solid #000;
+}
+
+#hr2{
+    border-top: 2px solid #000;
+    position: absolute;
+    top: 95%;
+    height: 5px;
+    width: 95%;
+    right: 3%;
+}
+
+.letter{
+    text-indent: 5px;
 }
