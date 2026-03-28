@@ -84,3 +84,19 @@ i{
     font-size: 14px;
     font-weight: 10;
 }
+
+#Infofullname{
+    font-family: inherit;
+    color: #816d6d;
+}
+
+
+#Infowork{
+    font-family: initial;
+    color: #816d6d;    
+}
+
+
+.st{
+    margin-right: 20px;
+}
