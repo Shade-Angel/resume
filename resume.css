@@ -103,7 +103,7 @@ body{
 i{
     font-family: Arial;
     font-size: 12px;
-    font-weight: 10;
+    font-weight: 50;
 }
 
 #Infofullname{
@@ -194,7 +194,7 @@ i{
 #hr2{
     border-top: 2px solid #000;
     position: absolute;
-    top: 95%;
+    top: 96%;
     height: 5px;
     width: 95%;
     right: 3%;
